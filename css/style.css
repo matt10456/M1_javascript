@@ -1,0 +1,32 @@
+body
+{
+	background-color:lightblue;
+	margin-left:15%;
+	margin-right:15%
+}
+
+#menu
+{
+	background-color:white;
+}
+
+#titre
+{
+	font-size:70px;
+	margin-left:-55px;
+}
+
+#canvas
+{
+	background-color:yellow;
+	border: 2px solid black;
+	background-image:url('../img/rules.png');
+	background-repeat:no-repeat;
+}
+
+#chat
+{
+	background-color:white;
+	width:500px;
+	height:230px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Game js BARZELLINO</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/paddle.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/balle.js"></script>
+  <script src="js/ihm.js"></script>
+  <script src="js/obstacle.js"></script>
+  <!-- Socket.io for multiplayer. -->
+  <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+	<header>
+  <div id="titre">
+  		<img src="img/logo.jpg" alt="Ultra Pong" title="Ultra Pong" />
+  </div>
+  <canvas id="canvas" width="500px" height="500px"></canvas>
+  </header>
+  <section><canvas id="menu" width=500 height=200></canvas></section>
+  <section id="chat">
+  		<div style="float:left;width:100px;border-right:1px solid black;height:200px;padding:10px;overflow:scroll-y;">
+				<b>USERS</b>
+			<div id="users"></div>
+		</div>
+		<div style="float:left;width:300px;height:200px;overflow:scroll-y;padding:10px;">
+			<div id="conversation"></div>
+			<input id="data" style="width:200px;" />
+			<input type="button" id="datasend" value="send" />
+		</div>
+ </section>
+  
+</body>
+</html>
