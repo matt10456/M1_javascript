@@ -72,7 +72,7 @@ function bouncePadd(ctx, tabBalls, tabPadd, height, score1, score2)
 			{
 				b.vY = -b.vY - 1;
 				b.y += b.vY;
-	        	b.color = "rgb(40,200,"+ b.colorAdd(50) +")";
+	        	b.color = "rgb(40,200,"+ b.colorAdd(30) +")";
 	        	this.score1 += b.value;
 	        	b.direction = 1;
 	        	b.hit = 0;
@@ -83,7 +83,7 @@ function bouncePadd(ctx, tabBalls, tabPadd, height, score1, score2)
 			{
 				b.vY = -b.vY - 1;
 				b.y += b.vY;
-	        	b.color = "rgb(40,200,"+ b.colorAdd(50) +")";
+	        	b.color = "rgb(40,200,"+ b.colorAdd(30) +")";
 	        	this.score2 += b.value;
 	        	b.direction = 0;
 	        	b.hit = 0;

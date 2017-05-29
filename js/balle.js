@@ -120,7 +120,7 @@ function moveBalls(ctx, tab) {
 	   		{
 	        	b.vX = -b.vX - 1;
 	        	// Value is higher and color is more blue.
-	        	b.color = "rgb(40,200,+"+ b.colorAdd(50) + ")";
+	        	b.color = "rgb(40,200,+"+ b.colorAdd(30) + ")";
 	   		}
         }
     }

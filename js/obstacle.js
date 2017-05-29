@@ -41,7 +41,7 @@ function bounceObstacle(tabObst, tabBalls)
 	   					ball.vY = -ball.vY - 1;
 						ball.y += ball.vY;
 	   					ball.hit = 1;
-	   					ball.color = "rgb(40,200,+"+ ball.colorAdd(50) + ")";
+	   					ball.color = "rgb(40,200,+"+ ball.colorAdd(30) + ")";
 	   					// ! Must change the direction of the ball to avoid bug.
 	   					if(ball.direction == 0) {ball.direction = 1; }
 	   					else {ball.direction = 0; }
